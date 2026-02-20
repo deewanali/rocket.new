@@ -1,0 +1,16 @@
+# Default Configuration for DeepFaceLab
+
+# Paths
+workspace: "/path/to/your/workspace"
+result_dir: "/path/to/your/results"
+
+# Settings
+model: "DFD"
+train: {
+    batch_size: 4,
+    iterations: 20000,
+    learning_rate: 0.002
+}
+
+# Enable logs
+logging: true
